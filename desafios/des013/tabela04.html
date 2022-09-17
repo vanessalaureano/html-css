@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 04</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            padding: 10px;
+            text-align: center;            
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+
+        tr.zebrado {
+            background-color: gray;
+            color: white;
+        }
+        tr.zebrado th {
+            text-align: left;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 13</h1>
+    <p>Tabela 04</p>
+    <table>
+        <caption>
+
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="row">Área</th>
+                <th rowspan="2" scope="row">Disciplinas</th>
+                <th colspan="2" scope="rowgroup">Notas</th>
+                <th rowspan="2" scope="row">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="col">Exatas</th>
+                <td>Matemática</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr class="zebrado">
+                <th colspan="4">Média de exatas</th>
+                <td>00</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Geobrafia</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr class="zebrado">
+                <th colspan="4">Média de humanas</th>
+                <td>00</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
